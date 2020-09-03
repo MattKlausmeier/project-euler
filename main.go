@@ -21,6 +21,8 @@ func main() {
 		n0005()
 	case "6":
 		n0006()
+	case "7":
+		n0007()
 	default:
 		fmt.Println("I can't solve that one... yet.")
 	}
