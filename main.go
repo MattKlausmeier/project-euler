@@ -19,6 +19,8 @@ func main() {
 		n0004()
 	case "5":
 		n0005()
+	case "6":
+		n0006()
 	default:
 		fmt.Println("I can't solve that one... yet.")
 	}
