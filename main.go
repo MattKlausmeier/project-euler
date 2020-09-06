@@ -27,6 +27,8 @@ func main() {
 		n0008()
 	case "9":
 		n0009()
+	case "10":
+		n0010()
 	case "11":
 		n0011()
 	default:

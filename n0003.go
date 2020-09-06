@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func n0003() {
 	// 775146 is the square root of 600851475143
@@ -18,7 +21,7 @@ func n0003() {
 }
 
 func isPrime(n int) bool {
-	for i := n - 1; i > 1; i-- {
+	for i := int(math.Sqrt(float64(n))); i > 1; i-- {
 		if n%i == 0 {
 			return false
 		}
