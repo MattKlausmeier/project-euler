@@ -23,6 +23,8 @@ func main() {
 		n0006()
 	case "7":
 		n0007()
+	case "8":
+		n0008()
 	default:
 		fmt.Println("I can't solve that one... yet.")
 	}
